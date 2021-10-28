@@ -1,0 +1,8 @@
+[workspace]
+members = ["lsm-args", "lsm-args-common", "xtask"]
+
+[patch.crates-io]
+aya = { git = "https://github.com/willfindlay/aya", branch = "arguments" }
+
+[patch."http://github.com/aya-rs/aya"]
+aya = { git = "https://github.com/willfindlay/aya", branch = "arguments" }
